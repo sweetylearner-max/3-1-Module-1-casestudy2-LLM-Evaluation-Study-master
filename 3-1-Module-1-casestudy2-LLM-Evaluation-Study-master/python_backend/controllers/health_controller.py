@@ -1,0 +1,7 @@
+from flask import jsonify
+
+def health():
+    return jsonify({
+        "status": "success",
+        "message": "Backend is running successfully"
+    })
